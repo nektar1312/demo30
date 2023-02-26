@@ -1,0 +1,30 @@
+.container{
+    margin: 100px;
+   
+}
+.menu{
+    display: flex;
+    justify-content: space-between;
+}
+
+.menu__item:first-child:hover{
+    color: red;
+}
+
+
+
+button{
+    padding: 10px;
+    border-radius: 10px;
+    background-color: #808000;
+    box-shadow: 0 0 7px rgba(10, 9, 9, 0.623);
+    transition: all 1s;
+}
+button:hover{
+    
+    padding: 10px;
+    border-radius: 10px;
+    background-color: #7a7a18;
+    box-shadow: 0 0 10px rgba(10, 9, 9, 0.623);
+    transform: scale(1.1);
+}
